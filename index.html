@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eS">
+    <head>
+        <title>Calculadora</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="cuerpo">
+            <div id="inicio">
+                <input id ="calculo" type="text" placeholder="Ingrese cálculo" minlength="0" maxlength="19" onkeypress="return event.charCode >= 42 && event.charCode <= 57"/>                
+                <br>
+                <div id = "resultado">
+                </div>
+            </div>
+            <div id="botones">
+                <button id="7">7</button>
+                <button id="8">8</button>
+                <button id="9">9</button>
+                <button id="dividir">/</button>
+                <br>
+                <button id="4">4</button>
+                <button id="5">5</button>
+                <button id="6">6</button>
+                <button id="multiplicar">*</button>
+                <br>
+                <button id="1">1</button>
+                <button id="2">2</button>
+                <button id="3">3</button>
+                <button id="restar">-</button>
+                <br>
+                <button id="punto">.</button>
+                <button id="0">0</button>
+                <button id="masmenos">+/-</button>
+                <button id="sumar">+</button>
+                <br>
+                <button id="C">C</button>
+                <!-- C borra todo y CE borra solo un numero-->
+                <button id="CE">CE</button>
+                <button id="respuesta">=</button>
+                <button id="Ans">Ans</button>
+            </div>
+            <script src="codigo.js"></script>
+        </div>
+
+    </body>
+</html>

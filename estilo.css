@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+}
+
+#cuerpo{
+    background: rgb(122, 6, 37);
+    width: 330px;
+    height: 500px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+#inicio{
+    background-color: rgb(122, 6, 37);
+    width: 280px;
+    height: 100px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+
+#calculo{
+    background-color: white;
+
+}
+input{
+    border: 2px solid rgb(122, 6, 37);
+    width: 280px;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#resultado{
+    background-color: white;
+    width: 280px;
+    height: 50px;
+    border: 2px solid  rgb(122, 6, 37);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#botones{
+    margin: 10px 10px 10px 10px;
+    background:  rgb(122, 6, 37);
+
+}
+
+button{
+    background-color: aliceblue;
+    border-color: white;
+    color:  rgb(122, 6, 37);
+    width: 57px;
+    height: 57px;
+    margin: 7px 7px 7px 7px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
